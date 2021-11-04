@@ -1,0 +1,92 @@
+:root {
+  --Amarillo: #eac926;
+  --Azul: #03264c;
+  --Celeste: #1259c3;
+  --Gris-oscuro: #666;
+  --Gris-claro: #ebebeb;
+  --Verde: #39b54a;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  border: 0;
+}
+
+body {
+  background-color: var(--Gris-claro);
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  background-color: var(--Amarillo);
+}
+
+#liebre {
+  margin: 1rem;
+}
+
+#barra {
+ border: solid 0.5px black;
+ 
+}
+
+#search {
+  background-color: whitesmoke;
+  border-radius: 0.2rem;
+  border:solid black 0.5px;
+  padding:0.075rem;
+  
+}
+
+.lista {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.banner {
+  width: 100%;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+p {
+  font-size: 12px;
+}
+
+.precios {
+  font-size: 18px;
+}
+
+.descuentos {
+  font-size: 16px;
+}
+
+.descripciones {
+  font-size: 14px;
+}
+
+#menu {
+  color: white;
+  text-align: center;
+}
+
+#menu i {
+  background-color: var(--Celeste);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: white;
+}
+
+footer section {
+  text-align: center;
+}
