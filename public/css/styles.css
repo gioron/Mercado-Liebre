@@ -26,16 +26,17 @@ header {
 }
 
 #barra {
- border: solid 0.5px black;
- 
+  border: solid 0.5px black;
+  
+  
+  
 }
 
 #search {
   background-color: whitesmoke;
   border-radius: 0.2rem;
-  border:solid black 0.5px;
-  padding:0.075rem;
-  
+  border: solid black 0.5px;
+  padding: 0.075rem;
 }
 
 .lista {

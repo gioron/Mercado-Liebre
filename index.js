@@ -6,7 +6,6 @@ app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname + '/views/home.html'));
 });
 
-
-app.listen(8080, () => {
-  console.log('Server is running on port 8080');
+app.listen(process.env.PORT || 4000, ()=>{
+  console.log('Servidor funcionando');
 });
